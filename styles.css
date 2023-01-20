@@ -120,5 +120,32 @@ section {
     
    }
 
+   #pricing{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 90px;
+   }
+
+   .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(80%/3);
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5px;
+   }
+
+   .level{
+    background-color: #ddd;
+    color: black;
+    font-weight: 900;
+    width: 100%;
+    padding: 15px 0px;
+   }
   
    
