@@ -6,16 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProductLandingPage</title>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1 id="header"></h1>
+    <header id="header">
         <nav id="nav-bar">
             <div class="logo-container">
                 <img src="https://static.vecteezy.com/system/resources/previews/001/208/110/original/trombone-png.png"
@@ -26,16 +31,58 @@
                     <li><a href="#works" class="nav-link">How It Works</a></li>
                     <li><a href="#pricing" class="nav-link">Pricing</a></li>
                 </ul>
+            </div>
         </nav>
-        </div>
     </header>
     <main>
         <section id="email-section">
-            <h2>Handcrafted, home-made masterpieces</h2><br>
+            <h2>Handcrafted, home-made masterpieces</h2>
             <form action="https://www.freecodecamp.com/email-submit" id="form">
-                <input type="email" placeholder="Enter your email address" id="email" name="email"><br><br>
-                <input type="sumbit" name="submit" id="sumbit" placeholder="GET STARTED">
+                <input type="email" placeholder="Enter your email address" id="email" name="email"><br>
+                <input type="submit" name="submit" id="submit" value="GET STARTED">
+
             </form>
+        </section>
+
+        <section id="features">
+            <div class="feature">
+                <i class="ri-fire-fill ri-4x icon"></i>
+
+                <div>
+                    <h2>Premium Materials</h2>
+                    <p>
+                        Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of your purchase.
+                    </p>
+                </div>
+            </div>
+            <div class="feature">
+                <i class="ri-truck-fill ri-4x icon"></i>
+                <div>
+                    <h2>Fast Shipping</h2>
+                    <p>
+                        We make sure you recieve your trombone as soon as we have finished making it. We also provide
+                        free returns if you are not satisfied.
+                    </p>
+                </div>
+            </div>
+            <div class="feature">
+                <i class="ri-battery-fill ri-4x icon"></i>
+                <div>
+                    <h2>Quality Assurance</h2>
+                    <p>
+                        For every purchase you make, we will ensure there are no damages or faults and we will check and
+                        test the pitch of your instrument.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="audio">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uYqItMmwwKE?start=180"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </section>
     </main>
     <footer></footer>

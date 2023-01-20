@@ -87,6 +87,38 @@ section {
 
    #submit{
     background-color: var(--gold);
-    color: var(--white);
+    color: var(--text);
     cursor: pointer;
+    font-family: "Fraunces";
+    margin-top: 10px;    
+
    }
+
+   h2{
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+   }
+
+   .icon{
+    color:orange;
+    margin-right: 30px
+   }
+
+   #features{
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+   
+   }
+
+   .feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: "montserrat";
+    
+   }
+
+  
+   
