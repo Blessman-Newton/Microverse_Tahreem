@@ -1,0 +1,92 @@
+:root {
+    --white: #eee;
+    --text: #000;
+    --gold: rgb(243, 237, 67);
+}
+
+
+* {
+    margin: 0;     
+}
+
+
+body {
+    background-color: var(--white);
+}
+
+
+#header-img {
+    width: 100px;
+    object-fit: contain;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    position: flex;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: right;
+    padding-left: 35%;
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 55px;
+    
+    
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.the-product{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: "Fraunces";
+}
+
+section::before{
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+section {
+    margin: 40px 20px;
+    text-align: center;
+}
+#email-section{
+    margin-top: 90px;
+   }
+
+   input{
+    padding: 8px;
+    border-radius: 0px;
+   }
+
+   #submit{
+    background-color: var(--gold);
+    color: var(--white);
+    cursor: pointer;
+   }
